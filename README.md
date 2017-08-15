@@ -40,7 +40,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.15
   - [x] GIF Walkthrough:
   - [x] Steps to recreate: Create an HTML file with a hidden submission form
-        ```
+        ```html
         <html>
    <body>
       <form action="http://wpdistillery.dev/wp-admin/plugins.php" method="POST">
@@ -72,12 +72,6 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate:
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-    Filesystem Credentials Dialog CSRF
-    https://wpvulndb.com/vulnerabilities/8818
-
-    Press This CSRF DoS
-    https://wpvulndb.com/vulnerabilities/8770
 
 ## Assets
 
