@@ -38,7 +38,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: CSRF
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
-  - [x] GIF Walkthrough:
+  - [x] GIF Walkthrough: <img src='csrf.gif' />
   - [x] Steps to recreate: Create an HTML file with a hidden submission form
 
             <html>
